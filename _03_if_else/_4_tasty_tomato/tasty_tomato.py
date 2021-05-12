@@ -20,5 +20,13 @@ if tomato == 'red':
     canvas.create_oval(75, 200, 400, 450, fill="red", outline="")
     canvas.create_oval(200, 200, 525, 450, fill="red", outline="")
     canvas.create_rectangle(275, 100, 325, 230, fill="green", outline="")
+if tomato == 'yellow':
+    canvas.create_oval(75, 200, 400, 450, fill="yellow", outline="")
+    canvas.create_oval(200, 200, 525, 450, fill="yellow", outline="")
+    canvas.create_rectangle(275, 100, 325, 230, fill="green", outline="")
+if tomato == 'green':
+    canvas.create_oval(75, 200, 400, 450, fill="green", outline="")
+    canvas.create_oval(200, 200, 525, 450, fill="green", outline="")
+    canvas.create_rectangle(275, 100, 325, 230, fill="green", outline="")
 
 root.mainloop()

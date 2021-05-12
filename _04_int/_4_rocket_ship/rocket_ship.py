@@ -27,7 +27,6 @@ def mouse_pressed(event):
     
     # 2. Modify the locations of the shapes above so the rocket will be drawn
     #    where the mouse is clicked
-    
 
 canvas.bind("<Button-1>", mouse_pressed)
 
